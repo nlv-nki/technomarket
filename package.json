@@ -1,10 +1,10 @@
 {
-    "name": "gulp-scss-starter",
-    "description": "Frontend development with pleasure",
-    "author": "Andrey Gorokhov",
+    "name": "techomarket",
+    "description": "Frontend development",
+    "author": "Nikolai Nikolaev",
     "repository": {
         "type": "git",
-        "url": "https://github.com/andreyalexeich/gulp-scss-starter.git"
+        "url": "https://github.com/nlv-nki/technomarket.git"
     },
     "license": "MIT",
     "scripts": {
