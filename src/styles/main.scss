@@ -1,7 +1,13 @@
 @import "helpers/variables";
 @import "helpers/mixins";
 @import "helpers/functions";
-@import "vendor/libs";
+@import "vendor/_libs";
 @import "base/fonts";
 @import "base/general";
-@import "../blocks/modules";
+@import "../blocks/modules/_modules";
+@import "../blocks/components/_components";
+@import "blocks/main-header-bar";
+@import "blocks/main-logo";
+@import "blocks/search";
+@import "blocks/main-header-content";
+@import "blocks/main-nav-list";

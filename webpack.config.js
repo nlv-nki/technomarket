@@ -1,10 +1,15 @@
 const path = require("path");
+const webpack = require('webpack');
+
+
+
+
 
 module.exports = {
     entry: {
         main: "./src/js/index.js",
     },
-
+    devtool: 'source-map',
     output: {
         filename: "[name].js",
         chunkFilename: "[name].js",
@@ -23,6 +28,7 @@ module.exports = {
             }
         }
     },
+
 
     module: {
         rules: [

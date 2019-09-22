@@ -1,0 +1,45 @@
+<header class="main-header">
+  <div class="main-header-bar">
+    <div class="container-fluid">
+    <span class="main-logo">ТЕХНОМАРТ</span>
+    <form class="search clearfix" action="/echo" method="get">
+      <input class="search__search-field" id="search-field" type="search" name="search" placeholder="Поиск">
+      <button class="search__search-submit  search__icon-search" id="search-submit" type="submit"></button>
+    </form>
+    <a class="bar-bookmark-count bar-btn icon-bookmark" href="#">Закладки: <span>0</span></a>
+    <a class="bar-cart-count bar-btn icon-basket" href="#">Корзина: <span class="count">0</span></a>
+    <a class="bar-order-btn bar-btn" href="#">Оформить заказ</a>
+    </div>
+
+  </div>
+
+  <div class="main-header-content">
+    <div class="container-fluid">
+      <div class="main-header-content__blocks">
+        <div class="main-header-content__block">
+            Интернет-магазин строительных материалов и&nbsp;инструментов для ремонта
+        </div>
+        <div class="main-header-content__block">
+            <div class="contacts-tel icon-phone">
+                +7 (812) 555-05-55
+            </div>
+            <div class="contacts-address">
+                г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+            </div>
+        </div>
+        <div class="main-header-content__block user-block clearfix">
+            <a class="user-block-login user-block-btn icon-login" href="#">Войти</a>
+            <a class="user-block-sign-up user-block-btn" href="#">Регистрация</a>
+        </div>
+     </div>
+
+
+    </div>
+
+    <div class="container-fluid">
+      @@include("../main-menu/main-menu.html")
+    </div>
+
+  </div>
+
+</header>

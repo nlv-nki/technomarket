@@ -1,0 +1,31 @@
+.search__search-field {
+    float: right;
+    width: 220px;
+    height: 40px;
+    padding-left: 49px;
+    border: none;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #293449;
+    outline: 0;
+}
+
+
+.search__search-submit {
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #6a7180;
+}
+
+
+.search__icon-search:before {
+    position: absolute;
+    top: 11px;
+    left: 15px;
+    font-size: 20px;
+    content: '🔍';
+}
